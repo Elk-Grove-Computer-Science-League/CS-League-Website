@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.055em;
+}
+
+body {
+  background: #0F0F0F;
+  background-image: url('/public/imgs/Group 3.png');
+  overflow-x: hidden;
+  background-size: 1765px, 768px ;
+  background-repeat: no-repeat
+}
+
+.gradient {
+  font-size: 60px;
+  background: -webkit-linear-gradient(right,#00CFFD, #5100D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.055em;
+}
+
+.top {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    
+    color: white;
+    height: 768px;
+    width: 100vw;
+   
+}
+
+.text {
+  margin-top: 126px;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.sub-text {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 21px;
+}
+
+.sign-up {
+  width: 263px;
+  height: 67px;
+  border: double 4px transparent;
+  border-radius: 12px;
+  background-image: linear-gradient(#0F0F0F, #0F0F0F), radial-gradient(circle at top left, #00CFFD, #5100D6 );
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  color: white;
+  font-size: 28px;
+  margin-top: 55px
+}
+
+.heading {
+  font-size: 30px;
+  margin-bottom: 24px;
+}
+
+.mid {
+  color: white;
+  font-family: 'Inter';
+  letter-spacing: 0.055em;
+  max-width: 722px;
+  height: 80px;
+  margin-left: 80px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.moose {
+position: absolute;
+width: 375px;
+height: 375px;
+left: 1200px;
+top: 850px;
+}
+
+.mid-2 {
+  margin-top: 250px
+}
+
+.title-2 {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 133.52%;
+color: white;
+}
+
+.info-list {
+  justify-content: center;
+  width: 620px;
+  height: 200px;
+  text-align: left;
+  font-size: 36px;
+ 
+}
+
+.info {
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px
+}
+
+.gradient-2 {
+  background: -webkit-linear-gradient(right, #00CFFD, #5100D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.title-3 {
+color: white;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+margin-bottom: 10px;
+}
+
+.cool {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: white;
+width: 821px;
+height: 96px;
+letter-spacing: 0.055em;
+}
+
+.left {
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  float: left;
+  letter-spacing: 0.055em;
+}
+
+.right {
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  float: right;
+  letter-spacing: 0.055em;
+}
+
+.topics {
+  width: 764px;
+ height: 128px;
+ margin-top: 24px;
+}
+
+li {
+  text-align: left;
+}
+
+.title-4 {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+color: white;
+margin-top: 109px;
+}
+
+.perks {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: white;
+max-width: 710px;
+height: 64px;
+}
+
+.sign-up-2 {
+  width: 263px;
+  height: 67px;
+  border: double 4px transparent;
+  border-radius: 12px;
+  background-image: linear-gradient(#0F0F0F, #0F0F0F), radial-gradient(circle at top left, #00CFFD, #5100D6 );
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  color: white;
+  font-size: 28px;
+  margin-top: 109px;
+  margin-bottom: 112px;
+}
+
+.bar {
+position: absolute;
+width: 7px;
+height: 472px;
+left: 470px;
+top: 1298px;
+
+background: linear-gradient(180deg, #00CFFD 0%, #5100D6 100%);
+}
