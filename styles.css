@@ -9,7 +9,7 @@
 
 body {
   background: #0F0F0F;
-  background-image: url('/public/imgs/Group 3.png');
+  background-image: url('Group 3.png');
   overflow-x: hidden;
   background-size: 1765px, 768px ;
   background-repeat: no-repeat
