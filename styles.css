@@ -203,11 +203,26 @@ height: 64px;
 }
 
 .bar {
-position: absolute;
-width: 7px;
-height: 472px;
-left: 470px;
-top: 1298px;
-
-background: linear-gradient(180deg, #00CFFD 0%, #5100D6 100%);
+  width: 7px;
+  height: 512px;
+  background: linear-gradient(180deg, #00CFFD 0%, #5100D6 100%);
+  float: left;
+  margin-right: 52px;
 }
+
+li {
+  list-style:none;
+}
+
+li:before {
+  content: "";
+  position:relative;
+  left: -10px;
+  background: linear-gradient(45deg, #00CFFD, #5100D6 );
+  display:inline-block;
+  width:10px;
+  height:10px;
+  border-radius: 50%;
+  top: -4px
+}
+
